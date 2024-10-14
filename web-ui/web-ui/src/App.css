@@ -1,0 +1,101 @@
+.nav {
+  display: inline;
+  float: left;
+  width: 20%;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.menu {
+  margin: 1rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.main {
+  background-color: lightgrey;
+  float: right;
+  width: 80%;
+  min-height: 100vh;
+  font-family: "Poppins" serif;
+}
+
+h2,
+h3,
+h4 {
+  padding: 0.5rem;
+}
+
+h3:hover {
+  color: darkblue;
+}
+
+.selected {
+  color: darkblue;
+  font-weight: 700;
+}
+
+.card {
+  max-width: fit-content;
+  border: 1px solid;
+  border-radius: 10%;
+  margin: 1rem;
+  padding: 1.5rem;
+}
+
+.card > p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.info {
+  margin: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: chocolate;
+  border-radius: 10%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1em;
+  color: white;
+}
+
+.btn {
+  display: flex;
+}
+
+.property {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: darkblue;
+}
+
+table {
+  width: 100%;
+  font-size: larger;
+  margin: 1rem;
+}
+
+thead {
+  font-weight: bold;
+}
+
+tr.trdata > td {
+  padding: 0.5em;
+  border-bottom: 1px solid blue;
+  align-items: center;
+  cursor: pointer;
+  align-content: center;
+}
